@@ -159,5 +159,5 @@ private:
 	// [w, (x, y, z)]
 	_Tp w, x, y, z;
 };
-
+#include "quaternion.cpp"
 #endif

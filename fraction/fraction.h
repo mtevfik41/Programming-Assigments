@@ -33,4 +33,6 @@ public:
     bool operator==(const Fraction &fraction) const;
     bool operator!=(const Fraction &fraction) const;
 };
+
+#include "fraction.cpp"
 #endif;

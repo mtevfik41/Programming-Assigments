@@ -1,3 +1,5 @@
+#ifndef _FRACTION_
+#define _FRACTION_
 #include "fraction.h"
 
 Fraction::Fraction()
@@ -138,3 +140,5 @@ bool Fraction::operator!=(const Fraction &fraction) const
 
     return (fractOne != fractTwo);
 }
+
+#endif

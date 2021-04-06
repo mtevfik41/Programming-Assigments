@@ -1,3 +1,5 @@
+#ifndef _QUATERNION_
+#define _QUATERNION_
 #include "quaternion.h"
 
 //Quaternion
@@ -271,3 +273,4 @@ void Quaternion<_Tp>::QuatRotation(_Tp v[3])
     v[1] = qm.y;
     v[2] = qm.z;
 }
+#endif
